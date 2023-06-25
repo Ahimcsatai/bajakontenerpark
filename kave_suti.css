@@ -1,0 +1,85 @@
+body {
+    background-color: #FBEFDB; 
+}
+
+nav {
+    background-color: #D48E24;
+    padding: 15px;
+}
+
+nav a{
+    color: white;
+    margin: 15px;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:first-child{
+    font-size: 1.5em;
+}
+nav a:first-child img{
+    width: 40px;
+}
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    color: #D48E24;
+    text-align: center;
+}
+.card{
+    color: #D48E24;
+    background-color: #fff;
+    border: 1px solid #D48E24;
+    position: relative;
+    overflow: hidden;
+}
+
+h5{
+    text-align: center;
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.card:hover{
+    box-shadow: 0px 0px 5px #D48E24;
+}
+#napiajanlat{
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.ikon{
+    width: 30px;
+    height: 30px;
+}
+.footer{
+    background-color: #D48E24;
+    color: #fff;
+}
+footer li{
+    list-style-type: none;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
